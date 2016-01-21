@@ -24,6 +24,15 @@
             "title":"Email Address"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://www.googleapis.com/auth/drive",
+            "https://www.googleapis.com/auth/drive.file",
+            "https://www.googleapis.com/auth/drive.appdata",
+            "https://www.googleapis.com/auth/drive.apps.readonly"
+        ]
+    }],
     "icon": "google",
     "title": "Google Sheets Add Editor" /* Required.A display name for the module */
 }
